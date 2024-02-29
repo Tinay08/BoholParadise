@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+     <link rel="icon" href="images/logobohol.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+     /* Add CSS for card containers and images */
+    .card {
+      overflow: hidden;
+ 
+    }
+
+    .card-container
+   {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 20px 0;
+      width: 100%;
+    }
+
+    .card-image {
+      flex: 1;
+      overflow: hidden;
+    }
+
+    .card-image img {
+      width: 100%;
+      height: auto;
+      transform: translateY(50%);
+      opacity: 0;
+      transition: transform 0.5s ease, opacity 0.5s ease;
+    }
+
+    .card-image img.in-view {
+      transform: translateY(0);
+      opacity: 1;
+    }
+
+    .card-text{
+      flex: 1;
+      padding: 0 20px;
+      text-align: left;
+    }
+</style>
+<body>
+    
+    <!-- header section starts -->
+
+    <header class="header">
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+
+        <a href="#" class="logo">travel</a>
+
+        <nav class="navbar">
+            <div id="close-navbar" class="fas fa-times"></div>
+            <a href="index.html">home</a>
+            <a href="about.html">about</a>
+            <a href="gallery.html">Tourist Spot</a>
+            <a href="contact.html">contact</a>
+        </nav>
+
+
+
+    </header>
+
+    <!-- header section ends -->
+
+
+    <!-- about section starts -->
+
+    <section class="about" id="about" >
+        <div class="container" >
+            <div class="image-container" style="margin-top: 5rem;">
+                <img src="images/bohol/mapofbohol.png" alt="" class="image">
+            </div>
+
+            <div class="content" style="margin-top: 2rem;">
+                <span>ABOUT BOHOL</span>
+                <h3>Bohol Geosite Map: Unraveling The Wonders Through Bohol Maps</h3>
+                <p>Located at the heart of Central Visayas, the Island province of Bohol is the 10th largest island in the Philippines with a total land area of 4,117.3 square kilometres. It is composed of an oval-shaped mainland surrounded by 72 smaller islands.
+                    A popular tourist destination, the province is abundant of beaches and resorts. Its well-known beaches are found in Panglao Island, which is situated south-west of the province, and in Anda, located on the island’s east side. Bohol is composed of 1 city and 47 municipalities.
+                    Tagbilaran City, the capital of Bohol, is known as the “City of Friendship.” Situated in the south-western part of the province, it has a total land area of 32.70 km2 (12.63 sq mi) and a coastline of 13 km (8.1 mi). The city shares its boundaries with the municipalities of Cortes, Corella, and Baclayon. It is 630 km (390 mi) southeast of the national capital of Manila and 72 km (45 mi) south of the regional capital, Cebu City.
+                    Tagbilaran City’s name is derived from “Tagu Bilaan” which means TAGU (to hide) and BILAAN (a Muslim marauder tribe) – hence its name means to hide from Muslim marauders.
+                </p>      
+            </div>
+        </div>
+    </section>
+
+    <!-- about section ends -->
+
+    
+
+    <!-- Card section starts -->
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="content" style="margin-top: 2rem;">
+                <h3>Discovering Bohol's Hidden Gems</h3>
+                <p>From pristine beaches and lush forests to iconic landmarks, Bohol offers a myriad of
+                tourist spots that captivate the heart and soul.
+                </p>     
+            </div>
+        </div>
+    </section>
+    <!-- Card section ends -->
+
+   <div class="card">
+        <div class="card-container">
+            <div class="card-image">
+                <h1 style="margin-left: 5%;">BOHOL PANORAMIC VIEW</h1>
+                <img src="images/bohol/panoramic/chocolatehills.jpg" alt="Cat Image 2">
+            </div>
+            <div class="card-text">
+                <h1>Chocolate Hills</h1>
+                <h2 style="line-height: 1.8;">Bohol's diverse geography presents a haven for nature enthusiasts. The detailed maps of the island reveal the stunning Chocolate Hills, an iconic geological formation composed of over a thousand perfectly cone-shaped hills. Witness the ethereal beauty of these 
+                    hills from the observation deck, where you can capture breathtaking panoramic views.
+                    One of Bohol's most famous attractions, the Chocolate Hills in Carmen is a geological formation consisting of thousands of cone-shaped hills. During the dry season, the hills turn chocolate brown, creating a captivating landscape that is truly unique.
+                </h2>
+                <a href="gallery.html#panoramic" class="btn">show more</a>
+            </div>
+        </div>
+        <!-- Card 1 (Image on the right) -->
+        <div class="card-container">
+            <div class="card-text">
+                <h1>Chocolate Hills ATV Adventure</h1>
+                <p style="line-height: 1.8; font-size: 13px;">Bohol, known for its stunning natural beauty and diverse landscapes, 
+                    offers a plethora of outdoor adventure activities that cater to thrill-seekers and nature enthusiasts alike. 
+                    Whether you're an adrenaline junkie or someone who enjoys a more leisurely pace, 
+                    Bohol has something for everyone.Experience the thrill of exploring the iconic Chocolate Hills on an ATV (All-Terrain Vehicle). Navigate through rolling hills and picturesque landscapes, 
+                    enjoying the unique geological formations that give the hills their name.
+                </p>
+                <a href="gallery.html#adventure" class="btn">show more</a>
+            </div>
+            <div class="card-image">
+               <h1>OUTDOOR ADVENTURES</h1>
+                <img src="images/bohol/adventure/ATV.jpg" alt="Cat Image 1">
+            </div>
+        </div>
+        <div class="card-container">
+            <div class="card-image">
+               <h1 style="margin-left: 5%;">CULTURAL AND HERITAGE</h1>
+                <img src="images/bohol/cultural/baclayon.jpg" alt="Cat Image 2">
+            </div>
+            <div class="card-text">
+                <h1>Our Lady of the Immaculate Conception Church</h1>
+                <p style="line-height: 1.8; font-size: 13px;">These heritage churches in Bohol not only hold religious significance but also serve as architectural and historical gems, 
+                    showcasing the rich cultural heritage of the province. 
+                    Visitors can appreciate their architectural beauty, explore their interiors, 
+                    and immerse themselves in the history and spirituality that these churches represent. 
+                    Baclayon: Our Lady of the Immaculate Conception Church in Baclayon is one of the oldest churches in the Philippines. It is recognized as a National Cultural Treasure and a designated UNESCO World Heritage Site. The church's Baroque architecture and well-preserved interior, 
+                    including a centuries-old pipe organ, make it a significant cultural and historical landmark.
+                </p>
+                <a href="gallery.html#cultural" class="btn">show more</a>
+            </div>
+        </div>
+        <!-- Card 1 (Image on the right) -->
+        <div class="card-container">
+            <div class="card-text">
+                <h1>Bohol National Museum</h1>
+                <p style="line-height: 1.8; font-size: 13px;">These museums in Bohol offer visitors the opportunity to delve into the diverse aspects of the province's culture, history, natural history, and artistic expressions. 
+                    Exploring these museums provides a deeper appreciation for the local heritage and contributes to a more immersive and educational travel experience.
+                    The Bohol National Museum is a cultural institution dedicated to preserving and showcasing the rich history and heritage of the province. 
+                    It features exhibits on Bohol's archaeological finds, ethnographic artifacts, natural history specimens, and artworks, providing visitors with a deeper understanding of Bohol's cultural and historical significance.
+                </p>
+                <a href="gallery.html#museum" class="btn" >show more</a>
+            </div>
+            <div class="card-image">
+              <h1>BOHOL MUSEUMS</h1>
+                <img src="images/bohol/museum/national_museum.jpg" alt="Cat Image 1">
+            </div>
+        </div>
+        <div class="card-container">
+            <div class="card-image">
+              <h1 style="margin-left: 5%;">DIVE SITES</h1>
+                <img src="images/bohol/dive/reef.jpg" alt="Cat Image 2" >
+            </div>
+            <div class="card-text">
+                <h1>Panglao Island Diving</h1>
+                <p style="line-height: 1.8; font-size: 13px;">These diving sites in Bohol provide divers with the opportunity to explore thriving coral reefs, encounter diverse marine species, 
+                    and witness the beauty of the underwater world. Whether it's vibrant coral gardens, encounters with large marine creatures, 
+                    or unique reef formations, these sites offer unforgettable experiences for diving enthusiasts.
+                    Panglao Island is renowned for its vibrant diving sites, offering a diverse underwater ecosystem. The island is surrounded by coral reefs teeming with marine life, including colorful coral formations, tropical fish, and fascinating macro life. 
+                    Divers can explore sites such as Balicasag Island and Puntod Wall, where they can encounter sea turtles, reef sharks, and an array of coral species.
+                </p>
+                <a href="gallery.html#dive" class="btn">show more</a>
+            </div>
+        </div>
+
+    </div>
+
+ <!-- footer section starts -->
+
+    <section class="footer">
+
+        <div class="credit">&copy; 2024 Bohol Paradise | All rights reserved!</div>
+
+    </section>
+
+    <!-- footer section ends -->
+
+ <script>
+      // Add JavaScript to apply animation on scroll
+      let lastScrollTop = 0;
+
+      function isElementInViewport(el) {
+        const rect = el.getBoundingClientRect();
+        return (
+          rect.bottom > 0 &&
+          rect.top < (window.innerHeight || document.documentElement.clientHeight)
+        );
+      }
+
+      function handleScroll() {
+        const cards = document.querySelectorAll('.card-image img');
+
+        cards.forEach((card) => {
+          const currentScrollTop = window.scrollY || document.documentElement.scrollTop;
+
+          if (isElementInViewport(card)) {
+            if (currentScrollTop > lastScrollTop) {
+              // Scrolling down
+              card.classList.add('in-view');
+            } else {
+              // Scrolling up
+              card.classList.add('in-view');
+            }
+          } else {
+            card.classList.remove('in-view');
+          }
+        });
+
+        lastScrollTop = currentScrollTop;
+      }
+
+      window.addEventListener('scroll', handleScroll);
+      window.addEventListener('resize', handleScroll);
+
+      // Trigger initial check on page load
+      document.addEventListener('DOMContentLoaded', handleScroll);
+    </script>
+
+
+    <!-- custom js file link -->
+    <script src="script.js"></script>
+</body>
+</html>
