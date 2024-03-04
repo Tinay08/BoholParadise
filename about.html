@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <style>
-     /* Add CSS for card containers and images */
+   
     .card {
       overflow: hidden;
  
@@ -50,7 +50,7 @@
 </style>
 <body>
     
-    <!-- header section starts -->
+  
 
     <header class="header">
 
@@ -70,10 +70,7 @@
 
     </header>
 
-    <!-- header section ends -->
-
-
-    <!-- about section starts -->
+   
 
     <section class="about" id="about" >
         <div class="container" >
@@ -93,11 +90,9 @@
         </div>
     </section>
 
-    <!-- about section ends -->
+
 
     
-
-    <!-- Card section starts -->
 
     <section class="about" id="about">
         <div class="container">
@@ -109,7 +104,7 @@
             </div>
         </div>
     </section>
-    <!-- Card section ends -->
+
 
    <div class="card">
         <div class="card-container">
@@ -126,7 +121,7 @@
                 <a href="gallery.html#panoramic" class="btn">show more</a>
             </div>
         </div>
-        <!-- Card 1 (Image on the right) -->
+    
         <div class="card-container">
             <div class="card-text">
                 <h1>Chocolate Hills ATV Adventure</h1>
@@ -160,7 +155,7 @@
                 <a href="gallery.html#cultural" class="btn">show more</a>
             </div>
         </div>
-        <!-- Card 1 (Image on the right) -->
+      
         <div class="card-container">
             <div class="card-text">
                 <h1>Bohol National Museum</h1>
@@ -195,7 +190,7 @@
 
     </div>
 
- <!-- footer section starts -->
+
 
     <section class="footer">
 
@@ -203,10 +198,10 @@
 
     </section>
 
-    <!-- footer section ends -->
+
 
  <script>
-      // Add JavaScript to apply animation on scroll
+      
       let lastScrollTop = 0;
 
       function isElementInViewport(el) {
@@ -225,10 +220,10 @@
 
           if (isElementInViewport(card)) {
             if (currentScrollTop > lastScrollTop) {
-              // Scrolling down
+           
               card.classList.add('in-view');
             } else {
-              // Scrolling up
+           
               card.classList.add('in-view');
             }
           } else {
@@ -242,12 +237,11 @@
       window.addEventListener('scroll', handleScroll);
       window.addEventListener('resize', handleScroll);
 
-      // Trigger initial check on page load
       document.addEventListener('DOMContentLoaded', handleScroll);
     </script>
 
 
-    <!-- custom js file link -->
+
     <script src="script.js"></script>
 </body>
 </html>
